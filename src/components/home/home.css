@@ -1,0 +1,60 @@
+.home {
+  display: flex;
+}
+.img img {
+  width: 85%;
+  margin-left: 90px;
+}
+
+.most-featured h3 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.most-featured hr {
+  color: #b8b5b5;
+  margin-bottom: 40px;
+}
+.most-featured span {
+  font-size: 0.9rem;
+}
+.most-featured b {
+  font-size: 1rem;
+}
+
+.most-featured p.date {
+  font-size: 0.6rem;
+  color: #5b5858;
+}
+
+.home-gadgets {
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 90px;
+}
+
+.home-gadgets span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.home-gadgets .date {
+  color: #5b5858;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.home-gadgets .readmore {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #372a47;
+}
