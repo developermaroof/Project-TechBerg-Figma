@@ -54,7 +54,7 @@ const Home = () => {
           the right strategy, a deep understanding of your
           <br />
           audience, and content output that aligns with this understanding. If
-          you're still struggling with engaging your audience
+          you're still struggling with engaging your <br /> audience...
         </p>
 
         <p className="readmore">Read More</p>

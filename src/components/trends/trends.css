@@ -1,0 +1,99 @@
+.trends {
+  margin-top: 200px;
+  margin-left: 90px;
+  margin-right: 50px;
+}
+
+.trends .header {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.trends h2 {
+  font-size: 20px;
+}
+
+.header button {
+  margin-left: 920px;
+  background-color: transparent;
+  color: #5b5858;
+  border: none;
+}
+
+.trends-boxs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.trends-box1 {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.trends-box1 img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.trends-box2 {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.trends-box2 img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.trends-box3 {
+  width: 50%;
+}
+
+.trends-box3 img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.trends-boxs .img-info {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.trends-boxs span {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.trends-boxs .date {
+  color: #5b5858;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.trends .loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.trends .loadmore button {
+  width: 20%;
+  padding: 15px;
+  background-color: transparent;
+  color: #196712;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #196712;
+}
+
+.trends .section-2 {
+  margin-top: 150px;
+}

@@ -1,5 +1,6 @@
 .home {
   display: flex;
+  margin-right: 50px;
 }
 .img img {
   width: 85%;
