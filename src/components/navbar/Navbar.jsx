@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import "./navbar.css";
 
 const Navbar = () => {
@@ -9,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-links">
         <p>
-          <a href="#home">Home</a>
+          <Link to={`/`}>Home</Link>
         </p>
         <p>
           <a href="#trends">Trends</a>
@@ -18,7 +21,7 @@ const Navbar = () => {
           <a href="#marketing">Marketing</a>
         </p>
         <p>
-          <a href="#gadgets">Gadgets</a>
+          <Link to={`/gadgets`}>Gadgets</Link>
         </p>
       </div>
       <div className="navbar-sign">
