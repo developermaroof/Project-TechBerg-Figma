@@ -1,4 +1,23 @@
+.heading {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .bar {
+  position: relative;
+  width: 16.285709381103516px;
+  height: 3px;
+  border-radius: 2px;
+  left: 620px;
+  bottom: 20px;
+  border: 4px;
+  background-color: green;
+}
+
 .gadget-1 {
+  margin-top: 70px;
   display: flex;
   margin-right: 50px;
 }
@@ -6,31 +25,95 @@
 .gadget-1 .img img {
   width: 85%;
   margin-left: 90px;
+  height: 580px;
 }
 
-.most-featured h3 {
-  font-size: 1.3rem;
-  margin-top: 10px;
+.LatestPosts .newsletter {
+  background: #554f4f1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 35%;
 }
-.most-featured hr {
-  color: #b8b5b5;
-  margin-bottom: 40px;
-}
-.most-featured span {
-  font-size: 0.9rem;
-}
-.most-featured b {
+
+.LatestPosts .newsletter h2 {
   font-size: 1rem;
 }
 
-.most-featured p.date {
+.LatestPosts .newsletter .bar {
+  position: absolute;
+  width: 19.285709381103516px;
+  height: 4px;
+  border-radius: 2px;
+  left: 1042px;
+  bottom: 148px;
+  border: 4px;
+  background-color: green;
+}
+
+.LatestPosts .newsletter p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.LatestPosts .newsletter input {
+  margin-top: 9px;
+  font-size: 10px;
+  background-color: transparent;
+  width: 260px;
+  height: Hug (33px);
+  padding: 10px 0px 10px 9px;
+  border: 1px solid #47424230;
+  gap: 10px;
+}
+
+.LatestPosts .newsletter button {
+  margin-top: 7px;
+  font-weight: 550;
+  font-size: 9px;
+  width: 270px;
+  height: Hug (33px);
+  padding: 6px 12px 6px 12px;
+  border: 1px;
+  gap: 10px;
+  border: 1px solid #196712;
+  color: #196712;
+}
+
+.LatestPosts h3 {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+.LatestPosts hr {
+  color: #b8b5b5;
+  margin-bottom: 10px;
+}
+.LatestPosts span {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.LatestPosts b {
+  margin-top: 1rem;
+  width: 100px;
+  height: 100px;
+  font-size: 0.9rem;
+}
+
+.LatestPosts p.date {
+  margin-top: 0px;
   font-size: 0.6rem;
   color: #5b5858;
 }
 
 .gadget-1_info {
   position: absolute;
-  margin-top: 530px;
+  margin-top: 630px;
   margin-left: 90px;
 }
 
@@ -63,7 +146,7 @@
 }
 
 .gadget-2 {
-  margin-top: 150px;
+  margin-top: 350px;
 }
 
 .gadget-2 .img img {

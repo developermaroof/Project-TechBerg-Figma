@@ -8,47 +8,43 @@ import Gadgets_3 from "../../images/gadgets-3.png";
 
 const Gadgets = () => {
   return (
-    <div>
+    <div className="container">
       <Navbar />
       <div className="heading">
-        <h1>GADGETS</h1>
+        <h2>GADGETS</h2>
       </div>
-
+      <div className="bar"></div>
       {/* 1st Gadget */}
       <div className="gadget-1">
         <div className="img">
           <img src={Gadgets_1} alt="img" />
         </div>
-        <div className="most-featured">
-          <h3>Most Featured</h3>
+        <div className="LatestPosts">
+          <div className="newsletter">
+            <h2>Newsletter</h2>
+            <div className="bar"></div>
+            <p>Enter your email address below to subscribe to my newsletter</p>
+            <input type="text" placeholder="Your email address.." />
+            <button>SUBSCRIBE</button>
+          </div>
+          <h3>Latest Posts</h3>
           <hr />
           <p className="data">
             <span>Gadgets</span>
-            <br /> <br />
+            <br /> <b>
+              How i went from programming with a Nokia to Samsung !
+            </b>{" "}
+          </p>
+          <p className="date">May 15 2018</p>
+          <p className="data">
+            <span>Gadgets</span>
+            <br />
             <b>How i went from programming with a Nokia to Samsung !</b>{" "}
           </p>
           <p className="date">May 15 2018</p>
           <p className="data">
             <span>Gadgets</span>
-            <br /> <br />
-            <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-          </p>
-          <p className="date">May 15 2018</p>
-          <p className="data">
-            <span>Gadgets</span>
-            <br /> <br />
-            <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-          </p>
-          <p className="date">May 15 2018</p>
-          <p className="data">
-            <span>Gadgets</span>
-            <br /> <br />
-            <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-          </p>
-          <p className="date">May 15 2018</p>
-          <p className="data">
-            <span>Gadgets</span>
-            <br /> <br />
+            <br />
             <b>How i went from programming with a Nokia to Samsung !</b>{" "}
           </p>
           <p className="date">May 15 2018</p>
