@@ -1,48 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 2rem 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .techberg {
-  width: 80px;
-  height: 48.74797058105469px;
-  top: 35.1328125px;
+  width: 156px;
+  height: 48.75px;
+  top: 35.13px;
   left: 71px;
-
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 31px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
+  font-weight: 400;
+}
+
+.techberg span {
+  font-weight: 700;
 }
 
 .navbar-links {
-  width: 350px;
-  height: 23px;
-
-  justify-content: space-between;
-
+  width: Fixed (458px);
+  height: Hug (23px);
+  top: 41px;
+  left: 426px;
+  flex-direction: row;
   display: flex;
-
-  align-items: center;
+  margin-left: -15%;
 }
 .navbar-links p a {
   text-decoration: none;
   color: black;
+  width: 86px;
+  height: 23px;
+  margin-right: 20px;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .navbar-sign {
-  width: 159px;
-  height: 23px;
-  top: 46px;
-  left: 1680px;
-  gap: 26px;
+  width: 150px;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+}
+
+.navbar-sign p {
+  padding-left: 30px;
+  width: 40px;
+  /* height: 23px; */
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Responsiveness Section */
+
+@media screen and (max-width: 1270px) {
+  .techberg {
+    font-size: 29px;
+  }
+
+  .navbar-links {
+    margin-left: -10%;
+  }
+  .navbar-links p a {
+    font-size: 19px;
+  }
+  .navbar-sign p {
+    font-size: 17px;
+    padding-left: 29px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .techberg {
+    font-size: 28px;
+  }
+
+  .navbar-links p a {
+    font-size: 18px;
+  }
+  .navbar-sign p {
+    font-size: 16px;
+    padding-left: 28px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .techberg {
+    font-size: 27px;
+  }
+
+  .navbar-links {
+    margin-left: -9%;
+  }
+  .navbar-links p a {
+    font-size: 17px;
+  }
+  .navbar-sign p {
+    font-size: 15px;
+    padding-left: 27px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .techberg {
+    font-size: 26px;
+  }
+
+  .navbar-links {
+    margin-left: -8%;
+  }
+  .navbar-links p a {
+    font-size: 16px;
+  }
+  .navbar-sign p {
+    font-size: 14px;
+    padding-left: 26px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .techberg {
+    font-size: 25px;
+  }
+
+  .navbar-links {
+    margin-left: -5%;
+  }
+  .navbar-links p a {
+    font-size: 15px;
+  }
+  .navbar-sign p {
+    font-size: 13px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .techberg {
+    font-size: 24px;
+  }
+
+  .navbar-links p a {
+    font-size: 14px;
+  }
+  .navbar-sign p {
+    font-size: 12px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+}
+
+@media screen and (max-width: 490px) {
+}
+
+@media screen and (max-width: 435px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 360px) {
 }
