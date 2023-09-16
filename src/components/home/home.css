@@ -1,19 +1,24 @@
 .home {
   display: flex;
-  margin-right: 50px;
 }
+
 .img img {
-  width: 85%;
-  margin-left: 90px;
+  width: 100%;
+}
+.most-featured {
+  width: 50%;
+  height: 50%;
+  margin-left: 4%;
+  margin-top: -1.5%;
+  display: inline-block;
+  box-sizing: content-box;
 }
 
 .most-featured h3 {
   font-size: 1.3rem;
-  margin-top: 10px;
 }
 .most-featured hr {
   color: #b8b5b5;
-  margin-bottom: 40px;
 }
 .most-featured span {
   font-size: 0.9rem;
@@ -28,9 +33,8 @@
 }
 
 .home-gadgets {
-  position: absolute;
-  margin-top: 530px;
-  margin-left: 90px;
+  width: 100%;
+  /* padding-top: 100px; */
 }
 
 .home-gadgets span {
@@ -59,4 +63,9 @@
   text-align: left;
   color: #372a47;
   text-decoration: underline gray;
+}
+
+/* Responsiveness Section */
+
+@media screen and (min-width: 1271px) {
 }
