@@ -15,10 +15,9 @@ const Home = () => {
 
         <p className="info">
           Engaging customers on social media is not an easy task. It requires
-          the right strategy, a deep understanding of your
-          <br />
-          audience, and content output that aligns with this understanding. If
-          you're still struggling with engaging your <br /> audience...
+          the right strategy, a deep understanding of your audience, and content
+          output that aligns with this understanding. If you're still struggling
+          with engaging your audience...
         </p>
 
         <p className="readmore">Read More</p>
@@ -28,53 +27,41 @@ const Home = () => {
         <hr />
         <p className="data">
           <span>Gadgets</span>
-          <br /> <br />
-          <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-        </p>
-        <p className="date">May 15 2018</p>
-        <p className="data">
-          <span>Gadgets</span>
-          <br /> <br />
-          <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-        </p>
-        <p className="date">May 15 2018</p>
-        <p className="data">
-          <span>Gadgets</span>
-          <br /> <br />
-          <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-        </p>
-        <p className="date">May 15 2018</p>
-        <p className="data">
-          <span>Gadgets</span>
-          <br /> <br />
-          <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-        </p>
-        <p className="date">May 15 2018</p>
-        <p className="data">
-          <span>Gadgets</span>
-          <br /> <br />
-          <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-        </p>
-        <p className="date">May 15 2018</p>
-      </div>
-
-      {/* <div className="home-gadgets">
-        <span>GADGETS</span>
-        <h2>
-          7 Proven Tactics to Boost Your Customer Engagement on Social Media
-        </h2>
-        <p className="date">May 15 2018</p>
-
-        <p className="info">
-          Engaging customers on social media is not an easy task. It requires
-          the right strategy, a deep understanding of your
           <br />
-          audience, and content output that aligns with this understanding. If
-          you're still struggling with engaging your <br /> audience...
+          <b>How i went from programming with a Nokia to Samsung !</b>
         </p>
-
-        <p className="readmore">Read More</p>
-      </div> */}
+        <p className="date">May 15 2018</p>
+        <p className="data">
+          <span>Gadgets</span>
+          <br />
+          <b>How i went from programming with a Nokia to Samsung !</b>
+        </p>
+        <p className="date">May 15 2018</p>
+        <p className="data">
+          <span>Gadgets</span>
+          <br />
+          <b>How i went from programming with a Nokia to Samsung !</b>
+        </p>
+        <p className="date">May 15 2018</p>
+        <p className="data">
+          <span>Gadgets</span>
+          <br />
+          <b>How i went from programming with a Nokia to Samsung !</b>
+        </p>
+        <p className="date">May 15 2018</p>
+        <p className="data">
+          <span>Gadgets</span>
+          <br />
+          <b>How i went from programming with a Nokia to Samsung !</b>
+        </p>
+        <p className="date">May 15 2018</p>
+        <p className="data hide">
+          <span>Gadgets</span>
+          <br />
+          <b>How i went from programming with a Nokia to Samsung !</b>
+        </p>
+        <p className="date hide">May 15 2018</p>
+      </div>
     </div>
   );
 };
