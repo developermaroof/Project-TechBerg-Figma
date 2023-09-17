@@ -50,11 +50,23 @@
 }
 
 .trends-boxs span {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.section-1 h2 {
+  font-size: 21px;
+}
+
+.section-1 p.date {
+  font-size: 11px;
+  color: #5b5858;
+}
+.section-1 p.info {
+  font-size: 14px;
 }
 
 .section-2 .trends-box1 {
@@ -87,25 +99,19 @@
 }
 
 .section-2 span {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .section-2 h2 {
-  font-size: 18px;
+  font-size: 17px;
 }
 
-.section-2 .date {
-}
-.section-2 .info {
-}
-
-.trends-boxs .date {
+.section-2 p.date {
+  font-size: 10px;
   color: #5b5858;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
+}
+.section-2 p.info {
+  font-size: 13px;
 }
 
 .trends .loadmore {
@@ -127,4 +133,163 @@
 
 .trends .section-2 {
   margin-top: 150px;
+}
+
+/* Responsiveness Section */
+
+@media screen and (max-width: 1226px) {
+  .section-1 span {
+    font-size: 17px;
+  }
+
+  .section-1 h2 {
+    font-size: 20px;
+  }
+
+  .section-1 p.date {
+    font-size: 10px;
+  }
+  .section-1 p.info {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1191px) {
+  .header button {
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width: 1176px) {
+  .trends {
+    margin-top: 170px;
+  }
+
+  .section-1 span {
+    font-size: 16px;
+  }
+
+  .section-1 h2 {
+    font-size: 19px;
+  }
+
+  .section-1 p.info {
+    font-size: 12px;
+  }
+  .trends .loadmore button {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1127px) {
+  .section-1 span {
+    font-size: 15px;
+  }
+
+  .section-1 h2 {
+    font-size: 17px;
+  }
+
+  .section-1 p.date {
+    font-size: 9px;
+  }
+
+  .section-1 p.info {
+    font-size: 11px;
+  }
+  .trends .loadmore button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .header button {
+    margin-left: 79%;
+  }
+}
+
+@media screen and (max-width: 1033px) {
+  .header button {
+    margin-left: 78%;
+  }
+
+  .trends .loadmore button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1003px) {
+  .section-2 span {
+    font-size: 11px;
+  }
+
+  .section-2 h2 {
+    font-size: 15px;
+  }
+
+  .section-2 p.date {
+    font-size: 8px;
+  }
+  .section-2 p.info {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 989px) {
+  .header button {
+    margin-left: 77%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header button {
+    margin-left: 76%;
+  }
+}
+
+@media screen and (max-width: 914px) {
+  .header h2 {
+    font-size: 17px;
+  }
+
+  .header button {
+    font-size: 10px;
+    margin-left: 79%;
+  }
+}
+
+@media screen and (max-width: 897px) {
+  .section-2 span {
+    font-size: 10px;
+  }
+
+  .section-2 h2 {
+    font-size: 14px;
+  }
+
+  .section-2 p.info {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 877px) {
+  .header button {
+    margin-left: 78%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header button {
+    margin-left: 77%;
+  }
+}
+@media screen and (max-width: 807px) {
+  .header button {
+    margin-left: 76%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .trends {
+    background-color: red;
+  }
 }
