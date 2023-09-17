@@ -1,7 +1,5 @@
 .trends {
   margin-top: 200px;
-  margin-left: 90px;
-  margin-right: 50px;
 }
 
 .trends .header {
@@ -26,36 +24,27 @@
   justify-content: space-between;
 }
 
-.trends-box1 {
+.section-1 .trends-box1 {
   width: 50%;
   margin-right: 10px;
 }
 
-.trends-box1 img {
+.section-1 .trends-box1 img {
   width: 100%;
   margin-bottom: 40px;
 }
 
-.trends-box2 {
+.section-1 .trends-box2 {
   width: 50%;
   margin-right: 10px;
 }
 
-.trends-box2 img {
+.section-1 .trends-box2 img {
   width: 100%;
   margin-bottom: 40px;
 }
 
-.trends-box3 {
-  width: 50%;
-}
-
-.trends-box3 img {
-  width: 100%;
-  margin-bottom: 40px;
-}
-
-.trends-boxs .img-info {
+.section-1 .trends-boxs .img-info {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -66,6 +55,48 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.section-2 .trends-box1 {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.section-2 .trends-box1 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section-2 .trends-box2 {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.section-2 .trends-box2 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section-2 .trends-box3 {
+  width: 50%;
+}
+
+.section-2 .trends-box3 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section-2 span {
+  font-size: 15px;
+}
+
+.section-2 h2 {
+  font-size: 18px;
+}
+
+.section-2 .date {
+}
+.section-2 .info {
 }
 
 .trends-boxs .date {
