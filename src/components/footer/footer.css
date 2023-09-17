@@ -12,8 +12,8 @@
 
 .footer-div p {
   margin-top: -1px;
-  margin-left: 90px;
-  margin-right: 800px;
+  /* margin-left: 90px; */
+  margin-right: 74%;
   align-items: center;
   justify-content: center;
   font-weight: 500;
