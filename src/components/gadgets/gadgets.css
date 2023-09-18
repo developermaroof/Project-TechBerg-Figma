@@ -68,24 +68,26 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 30%;
+  height: 20%;
 }
 
 .LatestPosts .newsletter h2 {
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .LatestPosts .newsletter .bar {
-  width: 19.285709381103516px;
+  margin-left: 2.5%;
+  margin-top: -3.7%;
+  width: 15.285709381103516px;
   height: 4px;
   border-radius: 2px;
-  left: 1042px;
-  bottom: 148px;
-  border: 4px;
+
   background-color: green;
 }
 
 .LatestPosts .newsletter p {
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
@@ -98,7 +100,7 @@
   font-size: 10px;
   background-color: transparent;
   width: 80%;
-  height: Hug (33px);
+  height: 3%;
   padding: 10px 0px 10px 9px;
   border: 1px solid #47424230;
   gap: 10px;
@@ -106,10 +108,11 @@
 
 .LatestPosts .newsletter button {
   margin-top: 7px;
+  margin-bottom: 10px;
   font-weight: 550;
   font-size: 9px;
   width: 84%;
-  height: Hug (33px);
+
   padding: 6px 12px 6px 12px;
   border: 1px;
   gap: 10px;
@@ -118,29 +121,25 @@
 }
 
 .LatestPosts h3 {
-  font-size: 1.2rem;
+  margin-top: 30px;
+  font-size: 17px;
   margin-bottom: 2px;
 }
 .LatestPosts hr {
   color: #b8b5b5;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 .LatestPosts span {
   font-size: 0.7rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
 }
 .LatestPosts b {
-  margin-top: 1rem;
-  width: 100px;
-  height: 100px;
   font-size: 0.9rem;
 }
 
 .LatestPosts p.date {
-  margin-top: 0px;
   font-size: 0.6rem;
   color: #5b5858;
+  margin-top: -5px;
 }
 .gadget-2 {
   margin-top: 350px;
@@ -195,9 +194,69 @@
   height: 35%;
 }
 
+@media screen and (max-width: 1250px) {
+  .LatestPosts h3 {
+    font-size: 15px;
+  }
+
+  .LatestPosts span {
+    font-size: 10px;
+  }
+  .LatestPosts b {
+    font-size: 13px;
+  }
+
+  .LatestPosts p.date {
+    font-size: 8px;
+    margin-bottom: -10px;
+  }
+}
+
 @media screen and (max-width: 1210px) {
   .container .head-bar {
     margin-top: -1.9%;
+  }
+}
+
+@media screen and (max-width: 1193px) {
+  .LatestPosts .newsletter h2 {
+    font-size: 12px;
+  }
+
+  .LatestPosts .newsletter .bar {
+    height: 3.5px;
+  }
+
+  .LatestPosts .newsletter input {
+    font-size: 9px;
+    margin-top: 4px;
+    height: 2%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .LatestPosts span {
+    font-size: 9px;
+  }
+  .LatestPosts b {
+    font-size: 12px;
+  }
+
+  .LatestPosts p.date {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .LatestPosts h3 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .container .head-bar {
+    margin-top: -2%;
   }
 }
 @media screen and (max-width: 1125px) {
@@ -205,9 +264,126 @@
     margin-top: -2%;
   }
 }
-@media screen and (max-width: 1039px) {
-  .container .head-bar {
-    margin-top: -2.2%;
+
+@media screen and (max-width: 1100px) {
+  .gadget-2 {
+    margin-top: 300px;
+  }
+
+  .LatestPosts .newsletter h2 {
+    font-size: 11px;
+  }
+
+  .LatestPosts .newsletter .bar {
+    height: 3.4px;
+  }
+
+  .LatestPosts .newsletter input {
+    font-size: 8px;
+    height: 1.9%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .LatestPosts .newsletter h2 {
+    font-size: 10px;
+  }
+
+  .LatestPosts .newsletter .bar {
+    width: 12px;
+    height: 3px;
+  }
+
+  .LatestPosts .newsletter input {
+    margin-top: -3px;
+    font-size: 7px;
+    height: 1.6%;
+  }
+  .LatestPosts .newsletter button {
+    margin-top: 5px;
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 1017px) {
+  .LatestPosts h3 {
+    font-size: 13px;
+  }
+
+  .LatestPosts b {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .gadget-2 {
+    margin-top: 250px;
+  }
+
+  .LatestPosts .newsletter p {
+    font-size: 7px;
+  }
+
+  .LatestPosts h3 {
+    font-size: 12px;
+  }
+
+  .LatestPosts span {
+    font-size: 8px;
+  }
+
+  .LatestPosts b {
+    font-size: 10px;
+  }
+
+  .LatestPosts p.date {
+    font-size: 6px;
+    margin-bottom: -10px;
+  }
+}
+@media screen and (max-width: 985px) {
+  .LatestPosts h3 {
+    font-size: 11px;
+  }
+
+  .LatestPosts b {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 965px) {
+  .LatestPosts .newsletter h2 {
+    font-size: 9px;
+  }
+
+  .LatestPosts .newsletter .bar {
+    width: 10px;
+    height: 2.2px;
+  }
+
+  .LatestPosts .newsletter input {
+    margin-top: -2px;
+    font-size: 6px;
+    height: 1.4%;
+  }
+  .LatestPosts .newsletter button {
+    margin-top: 5px;
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .LatestPosts h3 {
+    font-size: 10px;
+  }
+
+  .LatestPosts span {
+    font-size: 7px;
+  }
+
+  .LatestPosts b {
+    font-size: 8px;
+  }
+  .LatestPosts p.date {
+    margin-top: -11px;
+    font-size: 5px;
   }
 }
 @media screen and (max-width: 952px) {
@@ -224,6 +400,38 @@
   .container .head-bar {
     margin-top: -2.4%;
     margin-left: 48.6%;
+  }
+}
+@media screen and (max-width: 862px) {
+  .LatestPosts .newsletter p {
+    font-size: 6px;
+  }
+  .LatestPosts .newsletter input {
+    width: 70%;
+    height: 1%;
+    font-size: 6px;
+  }
+  .LatestPosts .newsletter button {
+    width: 77%;
+    font-size: 5px;
+  }
+}
+@media screen and (max-width: 843px) {
+  .LatestPosts .newsletter h2 {
+    font-size: 8px;
+  }
+
+  .LatestPosts .newsletter p {
+    font-size: 5px;
+  }
+  .LatestPosts .newsletter input {
+    width: 70%;
+    height: 1%;
+    font-size: 6px;
+  }
+  .LatestPosts .newsletter button {
+    width: 77%;
+    font-size: 5px;
   }
 }
 
