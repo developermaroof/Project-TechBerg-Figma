@@ -80,6 +80,7 @@ const Gadgets = () => {
 
             <p className="readmore">Read More</p>
           </div>
+          <div className="empty-div"></div>
         </div>
         {/* 3rd Gadget */}
         <div className="gadget-3">
@@ -97,6 +98,7 @@ const Gadgets = () => {
 
             <p className="readmore">Read More</p>
           </div>
+          <div className="empty-div"></div>
         </div>
         <Footer />
       </div>
