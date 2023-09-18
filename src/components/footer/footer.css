@@ -32,3 +32,88 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1265px) {
+  .footer-div p {
+    margin-right: 73%;
+  }
+}
+@media screen and (max-width: 1221px) {
+  .footer-div p {
+    margin-right: 72%;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .footer-div p {
+    margin-right: 71%;
+  }
+}
+@media screen and (max-width: 1142px) {
+  .footer-div p {
+    margin-right: 70%;
+  }
+}
+@media screen and (max-width: 1107px) {
+  .footer-div p {
+    margin-right: 69%;
+  }
+}
+
+@media screen and (max-width: 1073px) {
+  .footer-div p {
+    margin-right: 68%;
+  }
+}
+
+@media screen and (max-width: 1043px) {
+  .footer-div p {
+    margin-right: 67%;
+  }
+}
+@media screen and (max-width: 1013px) {
+  .footer-div p {
+    margin-right: 66%;
+  }
+}
+@media screen and (max-width: 986px) {
+  .footer-div img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 942px) {
+  .footer-div p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 902px) {
+  .footer-div p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 862px) {
+  .footer-div p {
+    margin-right: 65%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .footer-div p {
+    margin-right: 64%;
+  }
+}
+@media screen and (max-width: 819px) {
+  .footer-div p {
+    margin-right: 63%;
+  }
+}
+@media screen and (max-width: 799px) {
+  .footer-div p {
+    margin-right: 62%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .footer {
+    background-color: red;
+  }
+}
