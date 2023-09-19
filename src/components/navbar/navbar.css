@@ -186,6 +186,7 @@
   }
 
   .navbar .navbar-links {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -199,7 +200,7 @@
 
     background-color: #36ca67;
     transition: 1s;
-    transform: translateY(-100vh);
+    transform: translateY(-150vh);
   }
 
   .navbar .responsive_nav {
