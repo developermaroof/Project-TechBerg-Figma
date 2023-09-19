@@ -303,6 +303,31 @@
   .trends {
     display: none;
   }
+
+  .ms-box1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ms-box1 h1 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-weight: 700;
+  }
+
+  .ms-box1 .bar {
+    margin-top: -2.3%;
+    margin-bottom: 10%;
+    margin-left: 48.3%;
+    width: 25px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: green;
+  }
+
   .ms-box1 img {
     width: 100%;
   }

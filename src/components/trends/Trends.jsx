@@ -6,7 +6,7 @@ import img3 from "../../images/trending_img_3.png";
 import gadgets from "../../images/ms-gadgets.jpg";
 import marketing from "../../images/ms-marketing.jpg";
 import trends from "../../images/ms-trend.jpg";
-import trend1 from "../../images/trending_img_1.png";
+import trend1 from "../../images/trending_img_2.png";
 import marketing1 from "../../images/ms-connect.jpg";
 import gadgets1 from "../../images/trending_img_3.png";
 
@@ -123,58 +123,58 @@ const Trends = () => {
         </div>
       </div>
 
-      {/*  */}
+      {/* Mobile and Tebs Design */}
 
       <div className="ms-box1">
         <div>
-          <h1></h1>
+          <h1>Categories</h1>
           <div className="bar"></div>
         </div>
         <div className="img1">
           <img src={gadgets} alt="" />
           <div className="ms-button">
-            <button></button>
+            <button>GADGETS</button>
           </div>
         </div>
         <div className="img2">
           <img src={marketing} alt="" />
           <div className="ms-button">
-            <button></button>
+            <button>MARKETING</button>
           </div>
         </div>
         <div className="img3">
           <img src={trends} alt="" />
           <div className="ms-button">
-            <button></button>
+            <button>TRENDS</button>
           </div>
         </div>
       </div>
-
+      {/*  */}
       <div className="ms-box2">
         <div>
-          <h1></h1>
+          <h1>From The Blog</h1>
           <div className="bar"></div>
         </div>
         <div className="img1">
           <img src={trend1} alt="img" />
-          <h2></h2>
-          <p className="date"></p>
-          <button></button>
+          <h2>What 3 years of android development taught me the hard way</h2>
+          <p className="date">May 15 2018</p>
+          <button>Trends</button>
         </div>
         <div className="img2">
           <img src={marketing1} alt="img" />
-          <h2></h2>
-          <p className="date"></p>
-          <button></button>
+          <h2>In defense of being on the phone all the damn time 24 hours</h2>
+          <p className="date">May 15 2018</p>
+          <button>Marketing</button>
         </div>
         <div className="img3">
           <img src={gadgets1} alt="img" />
-          <h2></h2>
-          <p className="date"></p>
-          <button></button>
+          <h2>Infusing Tesla’s future with Mustang’s pride and passion</h2>
+          <p className="date">May 14 2018</p>
+          <button>Gadgets</button>
         </div>
       </div>
-
+      {/*  */}
       <div className="newsletter">
         <h2>Newsletter</h2>
         <div className="bar"></div>
