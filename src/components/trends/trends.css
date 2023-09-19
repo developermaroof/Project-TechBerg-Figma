@@ -288,8 +288,25 @@
   }
 }
 
+@media screen and (min-width: 791px) {
+  .ms-box1 {
+    display: none;
+  }
+  .ms-box2 {
+    display: none;
+  }
+  .newsletter {
+    display: none;
+  }
+}
 @media screen and (max-width: 790px) {
   .trends {
-    background-color: red;
+    display: none;
+  }
+  .ms-box1 img {
+    width: 100%;
+  }
+  .ms-box2 img {
+    width: 100%;
   }
 }
