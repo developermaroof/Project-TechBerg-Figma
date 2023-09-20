@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
 .trends {
   margin-top: 200px;
 }
@@ -323,9 +325,100 @@
     margin-bottom: 10%;
     margin-left: 48.3%;
     width: 25px;
-    height: 6px;
+    height: 7px;
     border-radius: 5px;
     background-color: green;
+  }
+
+  /*  */
+
+  .ms-box1 .img1 {
+    position: relative;
+  }
+
+  .ms-box1 .img1 img {
+    opacity: 95%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ms-box1 .img1 .ms-button {
+    position: absolute;
+    top: 45%;
+    left: 39%;
+  }
+
+  .ms-box1 .img1 .ms-button button {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(5, 5, 5, 5);
+    font-family: Ubuntu;
+    background-color: #196712;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 170%;
+    padding: 12px 30px 12px 30px;
+  }
+
+  /*  */
+
+  .ms-box1 .img2 {
+    position: relative;
+  }
+
+  .ms-box1 .img2 img {
+    opacity: 95%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ms-box1 .img2 .ms-button {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+  }
+
+  .ms-box1 .img2 .ms-button button {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(5, 5, 5, 5);
+    font-family: Ubuntu;
+    background-color: #196712;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 170%;
+    padding: 12px 30px 12px 30px;
+  }
+
+  /*  */
+
+  .ms-box1 .img3 {
+    position: relative;
+    margin-bottom: 15%;
+  }
+
+  .ms-box1 .img3 img {
+    opacity: 95%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ms-box1 .img3 .ms-button {
+    position: absolute;
+    top: 44%;
+    left: 40%;
+  }
+
+  .ms-box1 .img3 .ms-button button {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(5, 5, 5, 5);
+    font-family: Ubuntu;
+    background-color: #196712;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 170%;
+    padding: 12px 30px 12px 30px;
   }
 
   .ms-box1 img {

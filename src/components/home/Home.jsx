@@ -70,7 +70,7 @@ const Home = () => {
           <p className="date hide">May 15 2018</p>
         </div>
       </div>
-
+      {/* Mobile and Tebs Design */}
       <div className="ms-home">
         <div className="box1-img">
           <img src={img1} alt="img" />
