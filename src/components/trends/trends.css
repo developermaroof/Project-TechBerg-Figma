@@ -302,6 +302,9 @@
   .newsletter {
     display: none;
   }
+  .data {
+    display: none;
+  }
 }
 @media screen and (max-width: 790px) {
   .trends {
@@ -599,5 +602,69 @@
     color: white;
     border: none;
     border-radius: 50px;
+  }
+
+  /*  */
+
+  .newsletter {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .newsletter h1 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-weight: 700;
+  }
+
+  .newsletter .bar {
+    margin-top: -2.3%;
+    margin-bottom: 5%;
+    margin-left: 47.5%;
+    width: 30px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: green;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .data p {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .data input {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px 12px 20px;
+    border: 1px solid #47424230;
+  }
+
+  .data button {
+    margin-top: 15px;
+    background-color: transparent;
+    font-weight: 550;
+    font-size: 16px;
+    width: 83%;
+    padding: 8px 12px 8px 12px;
+    border: 1.5px solid #196712;
+    color: #196712;
   }
 }

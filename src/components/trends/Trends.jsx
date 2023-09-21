@@ -179,8 +179,10 @@ const Trends = () => {
       </div>
       {/*  */}
       <div className="newsletter">
-        <h2>Newsletter</h2>
+        <h1>Newsletter</h1>
         <div className="bar"></div>
+      </div>
+      <div className="data">
         <p>Enter your email address below to subscribe to my newsletter</p>
         <input type="text" placeholder="Your email address.." />
         <button>SUBSCRIBE</button>
