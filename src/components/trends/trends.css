@@ -290,6 +290,8 @@
   }
 }
 
+/* Mobiles and Tebs Design */
+
 @media screen and (min-width: 791px) {
   .ms-box1 {
     display: none;
@@ -394,7 +396,6 @@
 
   .ms-box1 .img3 {
     position: relative;
-    margin-bottom: 15%;
   }
 
   .ms-box1 .img3 img {
@@ -424,7 +425,179 @@
   .ms-box1 img {
     width: 100%;
   }
+
+  /*  */
+
   .ms-box2 img {
     width: 100%;
+  }
+
+  .ms-box2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ms-box2 h1 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-weight: 700;
+  }
+
+  .ms-box2 .bar {
+    margin-top: -2.3%;
+    margin-bottom: 10%;
+    margin-left: 47.5%;
+    width: 30px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: green;
+  }
+
+  .ms-box2 .img1 {
+    background-color: #aeadad54;
+    margin-bottom: 10%;
+  }
+
+  .ms-box2 .img1 img {
+    width: 100%;
+    height: auto;
+  }
+  .ms-box2 .img1 .line-1 {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 5% 0 5%;
+  }
+  .ms-box2 .img1 .line-2 {
+    margin-top: -20px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ms-box2 .img1 .date {
+    margin-top: 10%;
+    font-family: Ubuntu;
+    color: #5b5858;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ms-box2 .img1 button {
+    margin: 0 0 5% 70%;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #00802b;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .ms-box2 .img2 {
+    background-color: #aeadad54;
+    margin-bottom: 10%;
+  }
+
+  .ms-box2 .img2 img {
+    width: 100%;
+    height: auto;
+  }
+  .ms-box2 .img2 .line-1 {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 5% 0 5%;
+  }
+  .ms-box2 .img2 .line-2 {
+    margin-top: -20px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ms-box2 .img2 .date {
+    margin-top: 10%;
+    font-family: Ubuntu;
+    color: #5b5858;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ms-box2 .img2 button {
+    margin: 0 0 5% 70%;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #00802b;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+  }
+  .ms-box2 .img3 {
+    background-color: #aeadad54;
+  }
+
+  .ms-box2 .img3 img {
+    width: 100%;
+    height: auto;
+  }
+  .ms-box2 .img3 .line-1 {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 5% 0 5%;
+  }
+  .ms-box2 .img3 .line-2 {
+    margin-top: -20px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ms-box2 .img3 .date {
+    margin-top: 10%;
+    font-family: Ubuntu;
+    color: #5b5858;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ms-box2 .img3 button {
+    margin: 0 0 5% 70%;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #00802b;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 50px;
   }
 }

@@ -157,19 +157,22 @@ const Trends = () => {
         </div>
         <div className="img1">
           <img src={trend1} alt="img" />
-          <h2>What 3 years of android development taught me the hard way</h2>
+          <h2 className="line-1">What 3 years of android development</h2>
+          <h2 className="line-2">taught me the hard way</h2>
           <p className="date">May 15 2018</p>
           <button>Trends</button>
         </div>
         <div className="img2">
           <img src={marketing1} alt="img" />
-          <h2>In defense of being on the phone all the damn time 24 hours</h2>
+          <h2 className="line-1">In defense of being on the phone all</h2>
+          <h2 className="line-2">the damn time 24 hours</h2>
           <p className="date">May 15 2018</p>
           <button>Marketing</button>
         </div>
         <div className="img3">
           <img src={gadgets1} alt="img" />
-          <h2>Infusing Tesla’s future with Mustang’s pride and passion</h2>
+          <h2 className="line-1">Infusing Tesla’s future with Mustang’s</h2>
+          <h2 className="line-2">pride and passion</h2>
           <p className="date">May 14 2018</p>
           <button>Gadgets</button>
         </div>
