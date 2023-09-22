@@ -290,8 +290,6 @@
   }
 }
 
-/* Mobiles and Tebs Design */
-
 @media screen and (min-width: 791px) {
   .ms-box1 {
     display: none;
@@ -306,6 +304,9 @@
     display: none;
   }
 }
+
+/* Mobiles and Tebs Design */
+
 @media screen and (max-width: 790px) {
   .trends {
     display: none;
@@ -667,4 +668,238 @@
     border: 1.5px solid #196712;
     color: #196712;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .ms-box1 .bar {
+    margin-top: -3%;
+    margin-left: 48%;
+  }
+
+  .ms-box1 .img1 .ms-button {
+    top: 46%;
+    left: 37%;
+  }
+  .ms-box1 .img2 .ms-button {
+    left: 34%;
+  }
+  .ms-box1 .img3 .ms-button {
+    top: 45%;
+    left: 38%;
+  }
+
+  .ms-box2 .bar {
+    margin-top: -3%;
+    margin-left: 47%;
+  }
+
+  .newsletter .bar {
+    margin-top: -3%;
+    margin-left: 47%;
+  }
+
+  .data input {
+    width: 86%;
+  }
+
+  .data button {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .ms-box2 .img1 .line-1 {
+    font-size: 25px;
+  }
+  .ms-box2 .img1 .line-2 {
+    font-size: 25px;
+  }
+  .ms-box2 .img1 .date {
+    font-size: 15px;
+  }
+  .ms-box2 .img1 button {
+    font-size: 12px;
+  }
+  .ms-box2 .img2 .line-1 {
+    font-size: 25px;
+  }
+  .ms-box2 .img2 .line-2 {
+    font-size: 25px;
+  }
+  .ms-box2 .img2 .date {
+    font-size: 15px;
+  }
+  .ms-box2 .img2 button {
+    font-size: 12px;
+  }
+  .ms-box2 .img3 .line-1 {
+    font-size: 25px;
+  }
+  .ms-box2 .img3 .line-2 {
+    font-size: 25px;
+  }
+  .ms-box2 .img3 .date {
+    font-size: 15px;
+  }
+  .ms-box2 .img3 button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .ms-box1 .bar {
+    margin-top: -3.2%;
+    margin-left: 47.7%;
+  }
+
+  .ms-box1 .img1 .ms-button {
+    top: 45%;
+    left: 36%;
+  }
+  .ms-box1 .img1 .ms-button button {
+    font-size: 140%;
+  }
+  .ms-box1 .img2 .ms-button {
+    top: 44%;
+    left: 33%;
+  }
+  .ms-box1 .img2 .ms-button button {
+    font-size: 140%;
+  }
+  .ms-box1 .img3 .ms-button {
+    top: 44%;
+    left: 36%;
+  }
+  .ms-box1 .img3 .ms-button button {
+    font-size: 140%;
+  }
+
+  .ms-box2 .bar {
+    margin-top: -4%;
+    margin-left: 46.5%;
+  }
+
+  .newsletter .bar {
+    margin-top: -4%;
+    margin-left: 46.5%;
+  }
+
+  .data input {
+    width: 86%;
+  }
+
+  .data button {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width: 554px) {
+  .ms-box1 .bar {
+    margin-top: -3.5%;
+    margin-left: 47.2%;
+  }
+
+  .ms-box1 .img1 .ms-button {
+    top: 44%;
+  }
+  .ms-box1 .img1 .ms-button button {
+    font-size: 110%;
+  }
+  .ms-box1 .img2 .ms-button button {
+    font-size: 110%;
+  }
+  .ms-box1 .img3 .ms-button {
+    top: 43%;
+  }
+  .ms-box1 .img3 .ms-button button {
+    font-size: 110%;
+  }
+
+  .ms-box2 .bar {
+    margin-top: -4.5%;
+    margin-left: 46%;
+  }
+
+  .ms-box2 .img1 .line-1 {
+    font-size: 22px;
+  }
+  .ms-box2 .img1 .line-2 {
+    font-size: 22px;
+  }
+  .ms-box2 .img1 .date {
+    font-size: 13px;
+  }
+  .ms-box2 .img1 button {
+    font-size: 11px;
+  }
+  .ms-box2 .img2 .line-1 {
+    font-size: 22px;
+  }
+  .ms-box2 .img2 .line-2 {
+    font-size: 22px;
+  }
+  .ms-box2 .img2 .date {
+    font-size: 13px;
+  }
+  .ms-box2 .img2 button {
+    margin: 0 0 5% 65%;
+    font-size: 11px;
+  }
+  .ms-box2 .img3 .line-1 {
+    font-size: 22px;
+  }
+  .ms-box2 .img3 .line-2 {
+    font-size: 22px;
+  }
+  .ms-box2 .img3 .date {
+    font-size: 13px;
+  }
+  .ms-box2 .img3 button {
+    font-size: 11px;
+  }
+
+  .newsletter .bar {
+    margin-top: -4.5%;
+    margin-left: 46.4%;
+  }
+
+  .data input {
+    width: 90%;
+  }
+
+  .data button {
+    width: 94%;
+  }
+}
+@media screen and (max-width: 498px) {
+  .ms-box2 .img1 .line-1 {
+    font-size: 20px;
+  }
+  .ms-box2 .img1 .line-2 {
+    font-size: 20px;
+  }
+  .ms-box2 .img1 button {
+    margin: 0 0 5% 68%;
+  }
+  .ms-box2 .img2 .line-1 {
+    font-size: 20px;
+  }
+  .ms-box2 .img2 .line-2 {
+    font-size: 20px;
+  }
+  .ms-box2 .img2 button {
+    margin: 0 0 5% 64%;
+  }
+  .ms-box2 .img3 .line-1 {
+    font-size: 20px;
+  }
+  .ms-box2 .img3 .line-2 {
+    font-size: 20px;
+  }
+  .ms-box2 .img3 button {
+    margin: 0 0 5% 65%;
+  }
+}
+
+@media screen and (max-width: 460px) {
 }
