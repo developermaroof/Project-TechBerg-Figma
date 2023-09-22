@@ -14,7 +14,6 @@
 
 .footer-div p {
   margin-top: -1px;
-  /* margin-left: 90px; */
   margin-right: 74%;
   align-items: center;
   justify-content: center;
@@ -114,8 +113,58 @@
   }
 }
 
+@media screen and (min-width: 791px) {
+  .footer .ms-footer-icons {
+    display: none;
+  }
+  .footer .ms-footer-developer {
+    display: none;
+  }
+}
+
+/* Mobiles and Tebs Designs */
+
 @media screen and (max-width: 790px) {
-  .footer {
-    background-color: red;
+  .footer .footer-div {
+    display: none;
+  }
+
+  .footer .ms-footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer .ms-footer-icons img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer .ms-footer-developer {
+    font-family: Ubuntu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer .ms-footer-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer .ms-footer-developer {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .footer .ms-footer-icons img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer .ms-footer-developer {
+    font-size: 13px;
   }
 }

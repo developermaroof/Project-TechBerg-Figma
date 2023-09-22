@@ -19,6 +19,17 @@ const Footer = () => {
 
         <img src={facebook} alt="icon" />
       </div>
+      {/*  */}
+      <div className="ms-footer-icons">
+        <img src={facebook} alt="icon" />
+        <img src={linkedin} alt="icon" />
+        <img src={github} alt="icon" />
+      </div>
+      <div className="ms-footer-developer">
+        <p>
+          Developed by: <span>Maroof Qureshi</span>
+        </p>
+      </div>
     </div>
   );
 };
