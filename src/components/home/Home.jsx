@@ -32,37 +32,38 @@ const Home = () => {
         <div className="most-featured">
           <h3>Most Featured</h3>
           <hr />
-          <p className="data">
+          <p className="dataa">
             <span>Gadgets</span>
             <br />
             <b>How i went from programming with a Nokia to Samsung !</b>
           </p>
           <p className="date">May 15 2018</p>
-          <p className="data">
+
+          <p className="dataa">
             <span>Gadgets</span>
             <br />
             <b>How i went from programming with a Nokia to Samsung !</b>
           </p>
           <p className="date">May 15 2018</p>
-          <p className="data">
+          <p className="dataa">
             <span>Gadgets</span>
             <br />
             <b>How i went from programming with a Nokia to Samsung !</b>
           </p>
           <p className="date">May 15 2018</p>
-          <p className="data">
+          <p className="dataa">
             <span>Gadgets</span>
             <br />
             <b>How i went from programming with a Nokia to Samsung !</b>
           </p>
           <p className="date">May 15 2018</p>
-          <p className="data">
+          <p className="dataa">
             <span>Gadgets</span>
             <br />
             <b>How i went from programming with a Nokia to Samsung !</b>
           </p>
           <p className="date">May 15 2018</p>
-          <p className="data hide">
+          <p className="dataa hide">
             <span>Gadgets</span>
             <br />
             <b>How i went from programming with a Nokia to Samsung !</b>
