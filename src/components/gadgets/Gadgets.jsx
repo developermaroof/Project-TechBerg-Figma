@@ -7,11 +7,15 @@ import Gadgets_1 from "../../images/gadgets-1.png";
 import Gadgets_2 from "../../images/gadgets-2.png";
 import Gadgets_3 from "../../images/gadgets-3.png";
 
+import gad1 from "../../images/ms-gad-img1.png";
+import gad2 from "../../images/ms-gad-img2.png";
+import gad3 from "../../images/trending_img_3.png";
+
 const Gadgets = () => {
   return (
     <div className="App">
+      <Navbar />
       <div className="container">
-        <Navbar />
         <div className="heading">
           <h2>GADGETS</h2>
         </div>
@@ -44,19 +48,19 @@ const Gadgets = () => {
             </div>
             <h3>Latest Posts</h3>
             <hr />
-            <p className="data">
-              <span>Gadgets</span>
-              <br />{" "}
-              <b>How i went from programming with a Nokia to Samsung !</b>{" "}
-            </p>
-            <p className="date">May 15 2018</p>
-            <p className="data">
+            <p className="dataa">
               <span>Gadgets</span>
               <br />
               <b>How i went from programming with a Nokia to Samsung !</b>{" "}
             </p>
             <p className="date">May 15 2018</p>
-            <p className="data">
+            <p className="dataa">
+              <span>Gadgets</span>
+              <br />
+              <b>How i went from programming with a Nokia to Samsung !</b>{" "}
+            </p>
+            <p className="date">May 15 2018</p>
+            <p className="dataa">
               <span>Gadgets</span>
               <br />
               <b>How i went from programming with a Nokia to Samsung !</b>{" "}
@@ -100,8 +104,42 @@ const Gadgets = () => {
           </div>
           <div className="empty-div"></div>
         </div>
-        <Footer />
       </div>
+
+      {/* Mobiles and Tebs Design */}
+
+      <div className="ms-box2">
+        <div>
+          <h1>GADGETS</h1>
+          <div className="bar"></div>
+        </div>
+        <div className="img1">
+          <img src={gad1} alt="img" />
+          <h2 className="line-1">How I went from programming with a</h2>
+          <h2 className="line-2">Nokia to Samsung</h2>
+          <p className="date">May 15 2018</p>
+          <button>Gadgets</button>
+        </div>
+        <div className="img2">
+          <img src={gad2} alt="img" />
+          <h2 className="line-1">How Is This a Good Idea: Car</h2>
+          <h2 className="line-2"> Dashboard Video Games</h2>
+          <p className="date">May 15 2018</p>
+          <button>Gadgets</button>
+        </div>
+        <div className="img3">
+          <img src={gad3} alt="img" />
+          <h2 className="line-1">Infusing Tesla’s future with Mustang’s</h2>
+          <h2 className="line-2">pride and passion</h2>
+          <p className="date">May 14 2018</p>
+          <button>Gadgets</button>
+        </div>
+
+        <div className="loadmore">
+          <button>LOAD MORE</button>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
