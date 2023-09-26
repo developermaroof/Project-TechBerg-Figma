@@ -600,9 +600,14 @@
     font-size: 14px;
     background-color: #00802b;
     padding: 10px 40px 10px 40px;
-    color: white;
+
     border: none;
     border-radius: 50px;
+  }
+
+  .ms-box2 .img3 button a {
+    text-decoration: none;
+    color: white;
   }
 
   /*  */

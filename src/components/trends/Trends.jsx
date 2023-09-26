@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import img1 from "../../images/trending_img_1.png";
 import img2 from "../../images/trending_img_2.png";
 import img3 from "../../images/trending_img_3.png";
@@ -174,7 +176,11 @@ const Trends = () => {
           <h2 className="line-1">Infusing Tesla’s future with Mustang’s</h2>
           <h2 className="line-2">pride and passion</h2>
           <p className="date">May 14 2018</p>
-          <button>Gadgets</button>
+          <button>
+            <Link to={`/blog`}>
+              <a>Gadgets</a>
+            </Link>
+          </button>
         </div>
       </div>
       {/*  */}
