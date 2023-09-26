@@ -1,0 +1,10 @@
+@media screen and (min-width: 791px) {
+  .blog-section {
+    display: none;
+  }
+}
+
+.blog-container img {
+  width: 100%;
+  height: auto;
+}
