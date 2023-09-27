@@ -17,9 +17,11 @@ const Blog = () => {
       {/*  */}
       <div className="blog-container">
         <img src={blog1} alt="img" />
-        <h1>Infusing Tesla’s future with</h1>
-        <h1>Mustang’s pride and passion</h1>
-        <div className="bar"></div>
+        <div className="align-center-heading">
+          <h2 className="heading-top">Infusing Tesla’s future with</h2>
+          <h2>Mustang’s pride and passion</h2>
+          <div className="bar"></div>
+        </div>
         <p>
           More off this less hello salamander lied porpoise much over tightly
           circa horse taped so innocuously outside crud mightily rigorous plot
