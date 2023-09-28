@@ -101,6 +101,16 @@ const Blog = () => {
         <img className="facebook" src={facebook} alt="icon" />
         <img className="linkedin" src={linkedin} alt="icon" />
       </div>
+
+      <div className="blog-newsletter">
+        <h1>Newsletter</h1>
+        <div className="bar"></div>
+      </div>
+      <div className="blog-data">
+        <p>Enter your email address below to subscribe to my newsletter</p>
+        <input type="text" placeholder="Your email address.." />
+        <button>SUBSCRIBE</button>
+      </div>
       {/*  */}
       <Footer />
     </div>
