@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div ref={navRef} className="navbar-links">
         <p>
-          <Link to={`/`}>Home</Link>
+          <Link to={`/`}> Home</Link>
         </p>
         <p>
           <a href="#trends">Trends</a>

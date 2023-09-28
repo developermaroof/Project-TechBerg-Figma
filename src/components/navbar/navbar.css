@@ -55,6 +55,7 @@
 }
 
 .navbar-sign p {
+  cursor: pointer;
   padding-left: 30px;
   width: 40px;
   font-family: "Ubuntu";
@@ -190,14 +191,12 @@
     position: fixed;
     top: 0;
     left: 0;
-
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-color: #36ca67;
     transition: 1s;
     transform: translateY(-150vh);
@@ -214,7 +213,7 @@
   }
 
   .navbar-links p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .navbar .navbar-sign {

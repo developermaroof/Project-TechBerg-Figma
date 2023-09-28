@@ -14,10 +14,16 @@
 }
 
 .header button {
+  cursor: pointer;
   margin-left: 82%;
   background-color: transparent;
   color: #5b5858;
   border: none;
+}
+
+.header button a {
+  text-decoration: none;
+  color: #5b5858;
 }
 
 .trends-boxs {
@@ -124,6 +130,8 @@
 }
 
 .trends .loadmore button {
+  text-decoration: none;
+  cursor: pointer;
   width: 20%;
   padding: 15px;
   background-color: transparent;
@@ -131,6 +139,11 @@
   font-size: 14px;
   font-weight: 700;
   border: 1px solid #196712;
+}
+
+.trends .loadmore button a {
+  text-decoration: none;
+  color: #196712;
 }
 
 .trends .section-2 {
@@ -366,6 +379,11 @@
     padding: 12px 30px 12px 30px;
   }
 
+  .ms-box1 .img1 .ms-button button a {
+    text-decoration: none;
+    color: white;
+  }
+
   /*  */
 
   .ms-box1 .img2 {
@@ -396,6 +414,11 @@
     padding: 12px 30px 12px 30px;
   }
 
+  .ms-box1 .img2 .ms-button button a {
+    text-decoration: none;
+    color: white;
+  }
+
   /*  */
 
   .ms-box1 .img3 {
@@ -424,6 +447,11 @@
     font-weight: bold;
     font-size: 170%;
     padding: 12px 30px 12px 30px;
+  }
+
+  .ms-box1 .img3 .ms-button button a {
+    text-decoration: none;
+    color: white;
   }
 
   .ms-box1 img {
@@ -509,6 +537,11 @@
     border-radius: 50px;
   }
 
+  .ms-box2 .img1 button a {
+    text-decoration: none;
+    color: white;
+  }
+
   .ms-box2 .img2 {
     background-color: #aeadad54;
     margin-bottom: 10%;
@@ -557,6 +590,12 @@
     border: none;
     border-radius: 50px;
   }
+
+  .ms-box2 .img2 button a {
+    text-decoration: none;
+    color: white;
+  }
+
   .ms-box2 .img3 {
     background-color: #aeadad54;
   }

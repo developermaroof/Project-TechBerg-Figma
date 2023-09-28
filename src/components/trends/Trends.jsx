@@ -21,7 +21,11 @@ const Trends = () => {
         <div className="section-1">
           <div className="header">
             <h2>News & Trends</h2>
-            <button>View All</button>
+            <button>
+              <Link to={`/gadgets`}>
+                <a>View All</a>
+              </Link>
+            </button>
           </div>
           <div className="trends-boxs">
             <div className="trends-box1">
@@ -58,7 +62,11 @@ const Trends = () => {
             </div>
           </div>
           <div className="loadmore">
-            <button>LOAD MORE</button>
+            <button>
+              <Link to={`/gadgets`}>
+                <a>LOAD MORE</a>
+              </Link>
+            </button>
           </div>
         </div>
 
@@ -120,7 +128,11 @@ const Trends = () => {
             </div>
           </div>
           <div className="loadmore">
-            <button>LOAD MORE</button>
+            <button>
+              <Link to={`/gadgets`}>
+                <a>LOAD MORE</a>
+              </Link>
+            </button>
           </div>
         </div>
       </div>
@@ -135,19 +147,31 @@ const Trends = () => {
         <div className="img1">
           <img src={gadgets} alt="" />
           <div className="ms-button">
-            <button>GADGETS</button>
+            <button>
+              <Link to={`/gadgets`}>
+                <a>GADGETS</a>
+              </Link>
+            </button>
           </div>
         </div>
         <div className="img2">
           <img src={marketing} alt="" />
           <div className="ms-button">
-            <button>MARKETING</button>
+            <button>
+              <Link to={`/gadgets`}>
+                <a>MARKETING</a>
+              </Link>
+            </button>
           </div>
         </div>
         <div className="img3">
           <img src={trends} alt="" />
           <div className="ms-button">
-            <button>TRENDS</button>
+            <button>
+              <Link to={`/gadgets`}>
+                <a>TRENDS</a>
+              </Link>
+            </button>
           </div>
         </div>
       </div>
@@ -162,14 +186,22 @@ const Trends = () => {
           <h2 className="line-1">What 3 years of android development</h2>
           <h2 className="line-2">taught me the hard way</h2>
           <p className="date">May 15 2018</p>
-          <button>Trends</button>
+          <button>
+            <Link to={`/blog`}>
+              <a>Trends</a>
+            </Link>
+          </button>
         </div>
         <div className="img2">
           <img src={marketing1} alt="img" />
           <h2 className="line-1">In defense of being on the phone all</h2>
           <h2 className="line-2">the damn time 24 hours</h2>
           <p className="date">May 15 2018</p>
-          <button>Marketing</button>
+          <button>
+            <Link to={`/blog`}>
+              <a>Marketing</a>
+            </Link>
+          </button>
         </div>
         <div className="img3">
           <img src={gadgets1} alt="img" />

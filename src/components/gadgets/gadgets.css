@@ -440,6 +440,17 @@
 /* Mobiles and Tebs Designs */
 
 @media screen and (max-width: 790px) {
+  .ms-box2 .img1 button {
+    cursor: pointer;
+  }
+  .ms-box2 .img2 button {
+    cursor: pointer;
+  }
+  .ms-box2 .img3 button {
+    color: white;
+    cursor: pointer;
+  }
+
   .container {
     display: none;
   }
@@ -452,6 +463,7 @@
   }
 
   .loadmore button {
+    cursor: pointer;
     font-family: Ubuntu;
     width: 30%;
     height: auto;
