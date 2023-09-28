@@ -4,6 +4,10 @@
   }
 }
 
+* {
+  font-family: Ubuntu;
+}
+
 .blog-container {
   display: flex;
   flex-direction: column;
@@ -47,4 +51,72 @@
 .blog-container p {
   font-family: ubuntu;
   margin: 0 40px 20px 40px;
+}
+
+.author {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.author .avatar {
+  display: flex;
+}
+
+.author h3 {
+}
+
+.author .avatar img {
+  width: 100px;
+}
+
+.author .avatar .leftbar {
+  width: 100px;
+  height: 0.5px;
+  margin: 50px 30px 0 0;
+  background-color: black;
+}
+.author .avatar .rightbar {
+  width: 100px;
+  height: 0.5px;
+  margin: 50px 0 0 30px;
+  background-color: black;
+}
+
+.author .bar {
+  margin-top: -2%;
+  margin-bottom: 5%;
+  width: 20px;
+  height: 6px;
+  border-radius: 5px;
+  background-color: green;
+}
+
+.author p {
+  margin: 0 40px 20px 40px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.icons img {
+  width: 30px;
+}
+
+.icons .number {
+  color: red;
+  margin-right: 40%;
+  margin-left: 8px;
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+.icons .linkedin {
+  margin-left: 10px;
 }

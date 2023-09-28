@@ -6,6 +6,10 @@ import Footer from "../footer/Footer";
 
 import blog1 from "../../images/blog1img.png";
 import blog2 from "../../images/blog2img.png";
+import author from "../../images/avatar.png";
+import heart from "../../images/heart.png";
+import facebook from "../../images/facebook.png";
+import linkedin from "../../images/linkedin.png";
 
 const Blog = () => {
   return (
@@ -70,6 +74,32 @@ const Blog = () => {
           comprehensive evaluation conducted by qualified energy rating
           assessors.
         </p>
+      </div>
+      {/*  */}
+      <div className="author">
+        <h3>Author</h3>
+        <div className="avatar">
+          <div className="leftbar"></div>
+          <img src={author} alt="avatar" />
+          <div className="rightbar"></div>
+        </div>
+        <h2>Jon Doe</h2>
+        <div className="bar"></div>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit
+          parturient quis dapibus massa eget cursus. Sit sed tellus facilisis
+          tortor massa, ultrices cursus aliquam. Iaculis commodo viverra
+          habitasse egestas dolor feugiat donec. Vulputate et interdum posuere
+          eu tristique venenatis etiam vel.
+        </p>
+      </div>
+
+      <div className="icons">
+        <img className="heart" src={heart} alt="icon" />
+        <p className="number">120</p>
+        <img className="facebook" src={facebook} alt="icon" />
+        <img className="linkedin" src={linkedin} alt="icon" />
       </div>
       {/*  */}
       <Footer />
